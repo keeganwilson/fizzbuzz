@@ -1,5 +1,5 @@
 // Write your solution below this line:
-for (i = 1; i <= 50; i++) {
+for (let i = 1; i <= 50; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log(`fizzbuzz`);
     } else if (i % 3 === 0) {
